@@ -12,11 +12,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/lisa/device.mk)
 
 # Inherit some common YAAP stuff.
-$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 scr_resolution := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := yaap_lisa
+PRODUCT_NAME := aosp_lisa
 PRODUCT_DEVICE := lisa
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Xiaomi 11 Lite NE
